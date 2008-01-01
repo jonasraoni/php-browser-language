@@ -1,4 +1,10 @@
 <?php
+/*
+ * Browser Language: Simple class to extract an ordered list of the user's preferred language from the header HTTP_ACCEPT_LANGUAGE.
+ * Jonas Raoni Soares da Silva <http://raoni.org>
+ * https://github.com/jonasraoni/php-browser-language
+ */
+ 
 class Language{
   private static $language = null;
 	public static function getLanguages(){
